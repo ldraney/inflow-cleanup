@@ -1,0 +1,24 @@
+{
+  "name": "inflow-cleanup",
+  "version": "0.1.0",
+  "description": "AI-powered data governance for Inflow Inventory",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "sync": "node dist/sync.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["inflow", "inventory", "data-cleanup", "sqlite"],
+  "author": "ldraney",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "inflow-get": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
